@@ -27,6 +27,7 @@ export const App = () => {
   return (
     <div>
       <Header />
+      Hello world!
 
       <Main phones={phones} />
 
