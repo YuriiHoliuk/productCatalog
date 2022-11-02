@@ -2,7 +2,8 @@
   "name": "product_catalog",
   "main": "index.ts",
   "scripts": {
-    "start": "node ./server/src/index.ts"
+    "start": "node ./server/src/index.ts",
+    "build:server": "npm run build --prefix server"
   },
   "keywords": [
     "heroku"
